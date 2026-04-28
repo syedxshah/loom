@@ -9,6 +9,7 @@ class Generator {
       "month6": await month6(key, password),
       "month12": await month12(key, password),
       "lifetime": await lifetime(key, password),
+      // test
     };
     return map;
   }
